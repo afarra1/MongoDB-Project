@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Social Network</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&family=Days+One&family=Inter:wght@100&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="displayAll">
+        <div id="sidebar">
+            <h2 style="cursor: pointer;">The Social Network</h2>
+            <ul>
+                <li><a href="" class='activepage'>The Social Feed</a></li>
+                <li><a href="#">Your Armory</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+            <a href="" id="logoutText">LOGOUT</a>
+        </div>
+
+        <div id="content">
+
+
+            <div>
+                <div style="display: flex; flex-direction: row;">
+                    <div id="adddesc">
+                        <input type="text" id="PostTextfield" name="postDescription"
+                            placeholder="Enter your post description">
+                    </div> 
+                    <div id="addbutton">
+                        <button id="postbutton">POST</button>
+                    </div>  
+                </div>
+            </div>
+
+            <div className='PostView' id="PostView">
+                <div>
+                    <h3 id='PostUser'>@basyouniloveshumans</h3>
+                    <div>
+                        <img src="imgs/basyouni.png" id="imagePost" alt=""/>
+                    </div>
+                    <div className='PostData' id="PostData" style="font-size: 12px;">
+                        <h4 style="font-size: 12px; color: #ababab;">69,420,123 people liked this post</h4>
+                        <div style="display: flex;flex-direction: row;">
+                            <h4 style="margin-right: 2.5%; font-size: 12px; margin-bottom: 0;">@Basyouniloveshumans</h4>
+                            <h4 style="font-size: 12px; margin-bottom: center;">My song is now available on Anghami and Spotify! Check it Out!
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 450px;">
+                    <h3 style="text-align: center;">Comments</h3>
+                    <!-- Comment Component -->
+                    <div id="commentcomponentstyle">
+                        <div>
+                            <img src="imgs/wegz.jpg" id="imageComment" alt=""/>
+                        </div>
+                        <h5 id="commentstyle">Amazing Song Basyouni! Ta3aly el beit. plz</h5>
+                    </div>
+                    <!-- Comment Component -->
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
